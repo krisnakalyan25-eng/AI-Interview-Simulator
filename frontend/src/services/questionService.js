@@ -1,5 +1,5 @@
 import axios from "axios"
-const API_URL =
+const API =
   "https://ai-interview-simulator-0jvx.onrender.com/api/questions"
 
 export async function generateQuestions() {
