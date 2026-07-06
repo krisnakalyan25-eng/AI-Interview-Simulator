@@ -1,6 +1,7 @@
 import axios from "axios"
 
-const API = "http://localhost:5000/api/answers"
+const API_URL =
+  "https://ai-interview-simulator-0jvx.onrender.com/api/answers"
 
 export async function submitAnswer(answerData) {
   const token = localStorage.getItem("token")

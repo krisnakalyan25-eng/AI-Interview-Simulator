@@ -1,7 +1,7 @@
 import axios from "axios"
 
-const API =
-  "http://localhost:5000/api/resume"
+const API_URL =
+  "https://ai-interview-simulator-0jvx.onrender.com/api/resume"
 
 export async function uploadResume(
   formData

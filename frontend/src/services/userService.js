@@ -1,6 +1,7 @@
 import axios from "axios"
 
-const API = "http://localhost:5000/api/users"
+const API_URL =
+  "https://ai-interview-simulator-0jvx.onrender.com/api/users"
 
 export async function getProfile() {
   const token = localStorage.getItem("token")
