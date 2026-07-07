@@ -14,7 +14,7 @@ export const loginUser = async (userData) => {
 
 export const registerUser = async (userData) => {
   const response = await axios.post(
-    `${API_URL}/register`,
+    `${API}/register`,
     userData
   )
 
